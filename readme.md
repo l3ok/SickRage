@@ -1,3 +1,11 @@
+SickRageAndroid
+===============
+
+This is a fork from SickRage that has the required changes to enable it to run on Android by using the SickBeard Runner app.
+
+A guide on how to replace Sickbeard with SickRage will be posted but you basically need to replace the contents of the
+/sdcard/Sickbeard/Script directory with this.
+
 SickRage
 =====
 
