@@ -47,8 +47,8 @@ import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), 'lib')))
 
 # We only need this for compiling an EXE and I will just always do that on 2.6+
-if sys.hexversion >= 0x020600F0:
-    from multiprocessing import freeze_support  # @UnresolvedImport
+#if sys.hexversion >= 0x020600F0:
+#    from multiprocessing import freeze_support  # @UnresolvedImport
 
 import locale
 import datetime
@@ -526,8 +526,8 @@ class SickRage(object):
 
 
 if __name__ == "__main__":
-    if sys.hexversion >= 0x020600F0:
-        freeze_support()
+    #if sys.hexversion >= 0x020600F0:
+    #    freeze_support()
 
     # start sickrage
     SickRage().start()

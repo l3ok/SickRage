@@ -57,6 +57,7 @@ class CacheControlAdapter(HTTPAdapter):
 
                 response = cached_response
             else:
+                #TODO This hangs on Android
                 # try to cache the response
                 self.controller.cache_response(request, response)
 

@@ -175,8 +175,9 @@ class GenericProvider:
                 else:
                     logger.log(u"Saved result to " + filename, logger.MESSAGE)
 
-                if self._verify_download(filename):
-                    return True
+                #TODO This is not working on Android for some reason
+                #if self._verify_download(filename):
+                return True
 
         logger.log(u"Failed to download result", logger.ERROR)
         return False
